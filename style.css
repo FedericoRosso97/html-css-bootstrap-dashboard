@@ -36,6 +36,33 @@ nav{justify-content: center;}
     color: white;
 }
 
+.classe{
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.class-logo{
+    max-width: 30px;
+}
+
+.dati-classe{
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.img-box{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+
+
 @media screen and (min-width:992px) {
     .side-bar{
         width: 150px;
