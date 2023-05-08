@@ -2,9 +2,13 @@
     display: flex;
 }
 
+nav{justify-content: center;}
+
 .side-bar{
     width:20%;
     border: 1px solid black;
+    background-color: black;
+    color: white;
     height:calc(100vh - 20px)
 }
 
@@ -15,9 +19,5 @@
 }
 
 #logo-mobile{
-    width: 100%;
-}
-
-.ciau{
     width: 100%;
 }
