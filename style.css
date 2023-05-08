@@ -5,4 +5,19 @@
 .side-bar{
     width:20%;
     border: 1px solid black;
+    height:calc(100vh - 20px)
+}
+
+.main-body{
+    border: 1px solid black;
+    height:calc(100vh - 20px);
+    width: 80%;
+}
+
+#logo-mobile{
+    width: 100%;
+}
+
+.ciau{
+    width: 100%;
 }
