@@ -4,6 +4,10 @@
 
 nav{justify-content: center;}
 
+#logo-mobile{
+    width: 100%;
+}
+
 .side-bar{
     width:15%;
     border: 1px solid black;
@@ -16,12 +20,21 @@ nav{justify-content: center;}
     padding: 2rem 0;
 }
 
+.side-testo{
+    display: none;
+}
+
 .main-body{
     border: 1px solid black;
     height:calc(100vh - 20px);
     width: 80%;
 }
 
-#logo-mobile{
-    width: 100%;
+
+
+@media screen and (min-width:992px) {
+    .side-testo{
+        display: inline-block;
+        margin-left: 5px;
+    }
 }
