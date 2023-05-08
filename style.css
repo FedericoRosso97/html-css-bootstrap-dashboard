@@ -27,10 +27,13 @@ nav{justify-content: center;}
 .main-body{
     border: 1px solid black;
     height:calc(100vh - 20px);
-    width: 80%;
+    width: 85%;
 }
 
-
+.main-blu{
+    background-color: blue;
+    color: white;
+}
 
 @media screen and (min-width:992px) {
     .side-testo{
