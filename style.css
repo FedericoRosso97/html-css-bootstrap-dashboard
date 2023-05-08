@@ -1,5 +1,6 @@
 .flex{
     display: flex;
+    align-items: center;
 }
 
 nav{justify-content: center;}
